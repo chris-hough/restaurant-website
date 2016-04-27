@@ -257,6 +257,32 @@ section {
   span {
     clear: both;
   }
+  .nav-label {
+    display: none;
+  }
+
+  .nav-check {
+    display: none;
+  }
+
+  .nav {
+    display: inline-block;
+    float: right;
+    position: static;
+    max-width: 70%;
+    background-color: #666;
+    padding: 0;
+  }
+
+  nav li {
+  display: inline-block;
+    font-size: 0.875em;
+  }
+
+  header > h3 {
+    float: left;
+    max-width: 30%;
+  }
 
 }
 
