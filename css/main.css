@@ -77,8 +77,8 @@ body {
   margin: 0;
 }
 
-nav a:hover {
-  color: #000;
+li:hover {
+  background-color: #000;
 }
 
 nav, li {
@@ -134,7 +134,7 @@ nav, li {
 }
 
 .statement {
-display: block;
+  display: block;
   padding: 1rem;
   background-color: #666;
   width: 100%;
@@ -157,7 +157,7 @@ footer {
 footer li {
   display: inline-block;
   padding-left: 0;
-  font-size: 0.7em
+  font-size: 0.7em;
 }
 
 .footer-nav {
@@ -257,6 +257,7 @@ section {
   span {
     clear: both;
   }
+
   .nav-label {
     display: none;
   }
@@ -275,7 +276,7 @@ section {
   }
 
   nav li {
-  display: inline-block;
+    display: inline-block;
     font-size: 0.875em;
   }
 
@@ -304,9 +305,9 @@ section {
   }
 
   .menu::after {
-  content: " ";
-  display: table;
-  clear: both;
+    content: " ";
+    display: table;
+    clear: both;
   }
 
   .menu-item {
@@ -335,7 +336,6 @@ section {
   }
 
 }
-
 
 @media only screen and (min-width: 90em) {
 
