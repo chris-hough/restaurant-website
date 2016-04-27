@@ -69,10 +69,6 @@ header > h3 {
   margin: 0;
 }
 
-nav > h3 {
-  display: block;
-}
-
 ul {
   padding: 0;
 }
@@ -223,6 +219,8 @@ h4 {
 
 section {
   padding-top: 1.65rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 @media only screen and (min-width: 25em) {
@@ -260,11 +258,6 @@ section {
     clear: both;
   }
 
-  section {
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-
 }
 
 @media only screen and (min-width: 60em) {
@@ -283,11 +276,12 @@ section {
     float: left;
     width: 65%;
   }
+
   .menu::after {
   content: " ";
   display: table;
   clear: both;
-}
+  }
 
   .menu-item {
     display: inline-block;
@@ -303,7 +297,17 @@ section {
   footer li {
     font-size: 1rem;
   }
-  
+
+  section {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .title {
+    top: 0;
+    left: 3em;
+  }
+
 }
 
 
