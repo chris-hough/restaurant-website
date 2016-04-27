@@ -182,7 +182,7 @@ span {
   padding-bottom: .5rem;
   padding-left: 1rem;
   padding-right: 1rem;
-  line-height: 1.5rem;
+  line-height: 1.5;
   margin: 1rem;
 }
 
@@ -193,21 +193,21 @@ span {
 
 h1 {
   font-size: 2.5em;
-  line-height: 3.2500rem;
+  line-height: 3.2500;
   margin-bottom: 0;
   font-weight: bold;
 }
 
 h2 {
   font-size: 2em;
-  line-height: 3rem;
+  line-height: 3;
   font-weight: bold;
   display: block;
 }
 
 h3 {
   font-size: 1.2em;
-  line-height: 1.625rem;
+  line-height: 1.625;
   font-weight: bold;
 }
 
